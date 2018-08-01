@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link href="./main.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+       <title>Number Guesser
+    </title>
+  </head>
+  <body id="onload" onload="genNum();">
+   <header>
+      <p id="top"><strong>Number</strong> Guesser</p>
+   </header>
+   <section>
+      <br /><br />
+      <form>
+         <input id="value" type="number" placeholder="Enter your guess">
+               <br /> <br />
+         <input id="guess"  onClick="getUserInput()" type="button" value="Guess">
+         <input id="clear" type="reset" value="Clear" onClick="clearFunction()" disabled="true">
+         <br /><br />
+         <p id="guessRange">Guess Between 1 and 100 or Set Your Range!</p>
+      
+        <input id="min" type="number" placeholder="Minimum">
+        <input id="max" type="number" placeholder="Maximum">
+   <p id="statement"> </p>
+   <p id="userGuess"></p> 
+   <p id="response"></p>
+   <p id="outOfRange"></p>
+
+
+         <input id="reset" type="button" onClick="resetGame()" value="Reset" disabled="true">
+      </form>
+
+   </section>
+<script src="./script.js"></script>
+
+  </body>
+   
+</html>	

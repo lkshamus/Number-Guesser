@@ -1,0 +1,120 @@
+
+
+body{
+	margin: -10px;
+}
+
+header {
+	background-color: #404041;
+
+}
+
+strong {
+	color: #ED458B;
+	font-family: 'Open Sans', sans-serif
+}
+
+
+#top {
+	color: #E6E7E8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+	text-align: center;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font: 30px;
+	margin: 10px;
+	text-align: center;
+
+}
+
+#guessRange {
+	color: #ED458B;
+	font-size: 30px;
+}
+
+
+section {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+form {
+	display: block;
+	margin: auto;
+}
+
+input {
+	color: #D0D1D2D3;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin: 10px;
+	width: 400px;
+}
+
+#min, #max {
+	width: 175px;
+	display: inline-block;
+} 
+
+#text, #placeholder {
+	color: #D0D1D2D3;
+} 
+
+ #guess, #clear {
+	background-color: #929497;
+	border-radius: 500px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin: 10px;
+	width: 190px;
+	
+}
+
+#guess:hover, #clear:hover, #reset:hover {
+	background-color: #EB008B;
+}
+
+#clear:disabled, #reset:disabled {
+	background-color: #D0D2D3;
+}
+
+#clear:disabled:hover, #reset:disabled:hover {
+	background-color: #D0D2D3;	
+}
+
+#guess:focus, #clear:hover {
+	background-color: #929497;
+}
+
+
+#reset {
+	background-color: #929497;
+	border-radius: 500px;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	margin: 10px;
+	width: 400px;
+}
+
+#statement{
+	font-size: 30px;
+}
+
+#userGuess {
+	color: #ED458B;
+	font-family: 'Open Sans', sans-serif;;
+	font-size: 200px;
+	margin: 0;
+
+}
+
+#response{
+	font-size:30px;
+}
